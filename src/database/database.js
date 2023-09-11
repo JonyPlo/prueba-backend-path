@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import 'dotenv/config';
 
-const mongoURI = process.env.MONGODB_URI;
+const mongoURI = "mongodb://localhost:27017/test";
 
 mongoose.connect(mongoURI);
 
